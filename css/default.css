@@ -1,0 +1,28 @@
+header{
+    width: 96vw;
+    margin: -10px auto;
+    padding: 0px 10px;
+    text-align: center;
+    background-color: rgb(43, 43, 248);
+    border: 1px solid black;
+}
+header p{
+    font-size: 1.5em;
+    line-height: 0.5px;
+}
+header p a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin: 2px auto -2px auto;
+    padding: 5px;
+
+    background-color: rgb(43, 43, 248);
+    color: black;
+    text-transform:uppercase;
+    width: 99.5%;
+    font-size: 2em;
+    text-align: center;
+}
