@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .grafico img{
-    display: inline-block;
+    display: block;
     width: 90%;
     height: auto;
     margin: auto;
@@ -36,6 +36,29 @@
 }
 .caixa-simulacao{
     width: 15%;
+    padding: 16px;
     display: inline-block;
-
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 0px 0px 5px;
+    display: inline-block;
+    background-color: rgba(140, 252, 199, 0.836);
 }
+#btn-simular{
+    width: 95%;
+    height: 55px;
+    margin: auto;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(90, 218, 90);
+    font-size: 2em;
+}
+#btn-simular:hover{
+    width: 95%;
+    height: 55px;
+    font-size: 2.2em;
+    padding: 2px;
+    text-decoration: none;
+    background-color: rgb(62, 179, 62);
