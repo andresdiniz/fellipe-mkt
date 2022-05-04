@@ -34,3 +34,8 @@
     margin: 3px;
     border-radius: 5px;
 }
+.caixa-simulacao{
+    width: 15%;
+    display: inline-block;
+
+}
