@@ -24,7 +24,7 @@
     width:80px;
     align-items: center;
     margin: auto;
-
+}
 
 @keyframes slide {
     0% { margin-left: 0; }
