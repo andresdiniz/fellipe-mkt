@@ -1,2 +1,36 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
+.grafico img{
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    padding: 15px;
+}
+.icones{
+    clear: both;
+    display: block;
+    float: left;
+    width: 23.5%;
+    margin: auto;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.simule{
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid black;
+    width: 95%;
+    height: 1000px;
+    background-color: rgba(240, 248, 255, 0.808);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.simule img{
+    border: 2px solid black;
+    margin: 3px;
+    border-radius: 5px;
+}
