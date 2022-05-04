@@ -14,6 +14,18 @@
     width:650px;
     margin: auto;
 }
+.galeria .convenios{
+    width: 64%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+.galeria .convenios img{
+    width:80px;
+    align-items: center;
+    margin: auto;
+
+
 @keyframes slide {
     0% { margin-left: 0; }
     20% { margin-left: 0; }

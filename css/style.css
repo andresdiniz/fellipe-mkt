@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+main{
+    width: 90%;
+    margin: auto;
+}
+
 .grafico img{
     display: block;
     width: 90%;
@@ -12,7 +17,7 @@
     clear: both;
     display: block;
     float: left;
-    width: 23.5%;
+    width: 17%;
     margin: auto;
     border-right: 1px solid black;
 }
@@ -21,8 +26,8 @@
     margin: 5px auto;
     padding: 5px;
     border: 1px solid black;
-    width: 95%;
-    height: 1000px;
+    width: 90%;
+    height: 1100px;
     background-color: rgba(240, 248, 255, 0.808);
     border-radius: 5px;
     box-shadow: 1px 1px 1px black;
@@ -34,12 +39,12 @@
     border-radius: 5px;
 }
 .caixa-simulacao{
-    width: 15%;
+    width: 14%;
     padding: 16px;
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 0px 0px 0px 5px;
+    margin: 0px 0px 5px 5px;
     display: inline-block;
     background-color: rgba(140, 252, 199, 0.836);
 }
@@ -52,29 +57,29 @@
     display: block;
     border-radius: 5px;
     background-color: rgb(90, 218, 90);
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #btn-simular:hover{
     width: 95%;
     height: 55px;
-    font-size: 2.2em;
+    font-size: 1.8em;
     padding: 2px;
     text-decoration: none;
     background-color: rgb(62, 179, 62);
 }
 table{
-    width: 60%;
+    width: 50%;
     background-color: aquamarine;
     margin: auto;
     border: 1px solid black;
 }
 table td{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     border: 1px dashed black;
 }
 table th{
     border: 1px dashed black;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.8em;
 }
