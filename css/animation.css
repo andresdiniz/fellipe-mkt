@@ -1,18 +1,18 @@
 .galeria{
-    width: 98vw;
+    width: 98%;
     height: auto;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 2px 1px 1px black;
+    margin: auto;
 }
 .galeria .carrossel{
-    width: 500%;
+    width: 1000%;
     animation-name: slide;
-    animation-duration: 20s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
 }
 .galeria .carrossel img{
-    width: 19.95%;
+    width:650px;
+    margin: auto;
 }
 @keyframes slide {
     0% { margin-left: 0; }
