@@ -4,14 +4,26 @@ main{
     width: 90%;
     margin: auto;
 }
-
+main p{
+    width: 85%;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 5px auto;
+    margin-bottom: 10px;
+}
+strong{
+    font-weight: normal;
+    text-transform:none;
+}
 .grafico img{
     display: block;
     width: 90%;
     height: auto;
     margin: auto;
     background-color: black;
-    padding: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
 }
 .icones{
     clear: both;
@@ -63,10 +75,10 @@ main{
 #btn-simular:hover{
     width: 95%;
     height: 55px;
-    font-size: 1.8em;
+    font-size: 1.6em;
     padding: 2px;
     text-decoration: none;
-    background-color: rgb(62, 179, 62);
+    background-color: rgb(90, 218, 90);
 }
 .imag img{
     width: 75%;
@@ -75,14 +87,13 @@ main{
     display: block;
 }
 
-
 a#flutuante{
     position:fixed;
     width:50px;
     height:50px;
     bottom:60px;
     right:20px;
-    background-color:var(--cor3);
+    background-color:#1b9e4b;
     color:#fff;
     border-radius:50px;
     text-align:center;
@@ -92,6 +103,8 @@ a#flutuante{
     box-shadow: 2px 1px 1px black;
     border: 1px solid black;
 }
+
+
 a#flutuante>div{
     visibility: hidden;
 }

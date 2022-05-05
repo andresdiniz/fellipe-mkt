@@ -17,14 +17,13 @@ header p a{
     color: black;
 }
 
-footer{
-    margin: 2px auto -2px auto;
-    padding: 5px;
-
+footer {
+    margin: 2px auto -3px auto;
+    padding: 3px;
     background-color: #10BAE6;
     color: black;
     text-transform:uppercase;
     width: 99.5%;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
 }
