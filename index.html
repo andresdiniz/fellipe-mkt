@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K6ZNNNV');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -31,14 +40,25 @@
 
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6ZNNNV"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <header>
         <h1>CHEGA DE COTAR EM VÁRIOS LOCAIS</h1>
         <h2>Faça tudo em um só local</h2>
     </header>
-            <img src="img/banner.png" alt="Banner site">
     <main>
         <section>
             <div class="imag">
+                <picture>
+            <source media="(max-width: 450px )" srcset="img/banner340.webp" type="image/webp">
+            <source media="(max-width: 650px )" srcset="img/banner550.webp" type="image/webp">
+            <source media="(max-width: 950px )" srcset="img/banner940.webp" type="image/webp">
+            <img src="img/banner.png" alt="Banner Site">
+         </picture>
             <img src="img/72e7df97-b0a1-49f6-bedb-7fdf5bc58e38.jpg" alt="Parcelas">
             </div>
             <div class="simule" id="caixa-simulação">
@@ -56,7 +76,7 @@
                 </div>
                     <div class="caixa-simulacao">
                         <button id="btn-simular">
-                            <a href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank">Simule</a>
+                            <a id="link-prefeitura"onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20em%20prefeitura%20e%20gostaria%20de%20simular%20cr%C3%A9dito%20consigando');" href="https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20em%20prefeitura%20e%20gostaria%20de%20simular%20cr%C3%A9dito%20consigando" target="_blank">Simule</a>
                         </button>
                         <hr>
                         <h2>Prefeituras</h2>
@@ -70,7 +90,7 @@
 
                     <div class="caixa-simulacao">
                         <button id="btn-simular">
-                            <a href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank">Simule</a>
+                            <a id="link-estados" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20para%20governo%20estadual%20e%20quero%20simular%20cr%C3%A9dito%20consignado');" href="https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20para%20governo%20estadual%20e%20quero%20simular%20cr%C3%A9dito%20consignado" target="_blank">Simule</a>
                         </button>
                         <hr>
                         <h2>Estados</h2>
@@ -84,7 +104,8 @@
 
                     <div class="caixa-simulacao">
                         <button id="btn-simular">
-                            <a href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank">Simule</a>
+                            <a id="link-federal" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20sou%20funcionario%20do%20governo%20federal%20e%20quero%20cotar%20cr%C3%A9dito%20consignado!');"
+                            href="https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20sou%20funcionario%20do%20governo%20federal%20e%20quero%20cotar%20cr%C3%A9dito%20consignado!target="_blank">Simule</a>
                         </button>
                         <hr>
                         <h2>Federal</h2>
@@ -98,7 +119,8 @@
 
                     <div class="caixa-simulacao">
                         <button id="btn-simular">
-                            <a href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank">Simule</a>
+                            <a id="link-federal" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20cr%C3%A9dito%20consigando%20INSS');"
+                            href="https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20cr%C3%A9dito%20consigando%20INSS" target="_blank">Simule</a>
                         </button>
                         <hr>
                         <h2>INSS</h2>
@@ -116,7 +138,6 @@
             </div><p><strong>FIUZA CONSIGNADOS</strong> é uma empresa <strong>correspondente de instituições financeiras especializada</strong> em empréstimo e cartão consignado para <strong>servidores públicos municipais</strong>, <strong>estaduais e federais</strong>. Nossa especialidade é permitir o acesso as melhores propostas dentro dos bancos que atuam com consignado. <strong>Possuímos o selo de certificação FEBRABAN</strong> completo como correspondente bancária <strong>nível Brasil</strong>, através de um sistema on-line para facilitar o processo de aprovação bancária para com você servidor público.</p>
             
 
-            <section class="galeria">
                 <div class="convenios" id="parceiros">
                     <img src="img/convenios/gov-br.webp" alt="Icone do governo do Brasil">
                     <img src="img/convenios/governo-do-estado-de-mg.webp" alt="Estado de Minas Gerais">
@@ -128,10 +149,9 @@
                     <img src="img/convenios/pmrj.webp" alt="Policia Militar do Rio de Janeiro">
                     <img src="img/convenios/pol-spp-256x256.webp" alt="Policia Militar de São Paulo">
                 </div>
-            </section>
         </section>
 
-        <a id="flutuante"  href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank" >
+        <a id="flutuante" onclick="return gtag_report_conversion('https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0');" href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank" >
             <i style="margin-top:16px" class="fa fa-whatsapp"></i>
             <div class="mensagem" ><span class="tooltiptext">Entre em contato!</span></div>
              </a>

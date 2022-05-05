@@ -1,48 +1,50 @@
 @charset "UTF-8";
 
-@media (min-width:950px) and (max-width:1280px){
+@media (min-width:650px) and (max-width:1100px){
     header{
-        font-size: 1.5em;
-    }
-}
-
-
-
-@media (min-width:550px) and (max-width:950px){
-    header{
-        font-size: 0.8em;
-    }
-
-    .icones{
-        clear: both;
-        display: inline-block;
+        font-size: 1em;
+        margin: auto;
         width: 95%;
     }
-    .icones img{
-        max-width:12% ;
+    .imag{
+        width: 100%;
+        margin: auto;
     }
-}
-
-
-
-@media (min-width:360px) and (max-width:550px){
-    header{
-        font-size: 0.5em;
-    }
-    main{
-        width: 95vw;
+    .imag img{
+        width: 100%;
+        margin: auto;
+        padding: 5px;
     }
     .simule{
+        width: 100%;
+        display: inline-block;
         height: auto;
+        overflow: hidden;
     }
+    .simule h1{
+        width: 90%;
+        display: inline-block;
+        text-align: center;
+        font-size: 2em;
+    }
+    .simule li{
+        font-size: 1.5em;
+        margin: -5px auto;
+    }
+
     .icones{
         clear: both;
+        width: 90%;
         display: inline-block;
-        width: 100%;
+        padding: 4px;
+        margin:-20px auto 2px auto ;
         border: none;
+        content: normal;
+
     }
     .icones img{
-        max-width:8% ;
+        max-width:35% ;
+        align-items:center; 
         margin: auto;
         display:inline-block;
         border: none;
@@ -51,10 +53,168 @@
         font-size: 1em;
     }
     #btn-simular:hover{
+        font-size: 1.2em;
+    }
+    .caixa-simulacao{
+        width:38%;
+        margin: 10px 5px;
+
+    }
+    .convenios{
+
+        margin: auto;
+        width: 100%;
+        align-self: center;
+    }
+    .convenios img{
+        width: 10%;
+    }
+}
+
+@media (min-width:500px) and (max-width:650px){
+    header{
+        font-size: 0.7em;
+        margin: auto;
+        width: 95%;
+    }
+    .imag{
+        width: 100%;
+        margin: auto;
+    }
+    .imag img{
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+    .simule{
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        overflow: hidden;
+    }
+    .simule h1{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .simule li{
+        font-size: 1em;
+        margin: -5px auto;
+    }
+
+    .icones{
+        clear: both;
+        display: inline-block;
+        width: 100%;
+        border: none;
+        padding: 4px;
+        margin: -10px auto ;
+
+    }
+    .icones img{
+        max-width:11% ;
+        align-items:flex-end; 
+        margin: auto 0.5px;
+        display:inline-block;
+        border: none;
+    }
+    #btn-simular{
+        font-size: 1em;
+    }
+    #btn-simular:hover{
+        font-size: 1.2em;
+    }
+    .caixa-simulacao{
+        width:38%;
+        margin: 10px 5px;
+
+    }
+    .convenios{
+
+        margin: auto;
+        width: 100%;
+        align-self: center;
+    }
+    .convenios img{
+        width: 9%;
+    }
+}
+
+
+
+@media (min-width:250px) and (max-width:500px){
+    header{
+        font-size: 0.5em;
+        width: 90%;
+        margin: auto;
+    }
+    main{
+        width: 95vw;
+    }
+    picture{
+        width: 90%;
+        }
+    .simule{
+        width: 90vw;
+        display: inline-block;
+        height: auto;
+        overflow: hidden;
+    }
+    .simule h1{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .simule li{
+        font-size: 0.8em;
+        margin: -5px auto;
+    }
+
+    .icones{
+        clear: both;
+        display: inline-block;
+        width: 98%;
+        border: none;
+        padding: 2px;
+        margin: -10px auto ;
+    }
+    .icones img{
+        max-width:10% ;
+        align-items:flex-end; 
+        margin: auto 0.5px;
+        display:inline-block;
+        border: none;
+    }
+    #btn-simular{
+        font-size: 1em;
+
+    }
+    #btn-simular:hover{
         font-size: 1em;
     }
     .caixa-simulacao{
-        width:40%;
+        width:33%;
+        margin: 10px 5px;
+
+    }
+    .convenios{
+        margin: auto;
+        width: 90%;
+        align-self: center;
+    }
+    p{
+        font-size: 0.5em;
+    }
+    .mensagem{
+        display: none;
+        visibility: hidden;
+
+    }
+    footer p{
+        font-size: 0.5em;
+        width: 90%;
     }
 
 }

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body{
+     margin: auto;
+     width: 95%;
+}
 
 a{
     text-decoration: none;
