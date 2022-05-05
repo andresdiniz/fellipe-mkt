@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media (min-width:950px) and (max-width:1280px){
+    header{
+        font-size: 1.5em;
+    }
+}
+
+
+
+@media (min-width:550px) and (max-width:950px){
+    header{
+        font-size: 0.8em;
+    }
+}
+
+
+
+@media (min-width:360px) and (max-width:550px){
+    header{
+        font-size: 0.5em;
+    }
+}
