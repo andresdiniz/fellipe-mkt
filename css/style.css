@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+header h2{
+    color:#157A6C;
+}
 main{
     width: 90%;
     margin: auto;
@@ -42,7 +45,7 @@ strong{
     border: 1px solid black;
     width: 90%;
     height: calc(380px);
-    background-color: rgba(240, 248, 255, 0.808);
+    background-color: #E9E9E9;
     border-radius: 5px;
     box-shadow: 1px 1px 1px black;
 }
@@ -60,26 +63,26 @@ strong{
     border-radius: 5px;
     margin: 0px 0px 5px 5px;
     display: inline-block;
-    background-color: rgba(140, 252, 199, 0.836);
+    background-color: #157A6C;
 }
 #btn-simular{
     width: 95%;
-    height: 55px;
+    height: 35px;
     margin: auto;
     padding: 2px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
-    background-color: #34af23;
+    background-color: #1e6815;
     font-size: 1.5em;
 }
 #btn-simular:hover{
     width: 95%;
-    height: 55px;
+    height: 35px;
     font-size: 1.6em;
     padding: 2px;
     text-decoration: none;
-    background-color: #34af23;
+    background-color: #1e6815;
 }
 .imag img{
     width: 75%;
@@ -123,16 +126,21 @@ a#flutuante:hover>div{
     box-shadow: 2px 1px 1px solid;
     color: #000;
 }
+
 .convenios{
-    width: 65.5%;
+    width: 75%;
     margin: auto;
     padding: 2px;
     display: block;
+
+}
 }
 .convenios img{
     display: inline-block;
     margin: auto;
     border-radius: 8px;
     align-items: center;
-
+hr{
+    color: #000;
+    background-color: #000;
 }

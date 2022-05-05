@@ -1,10 +1,9 @@
 header{
-    width: 99%;
+    width: 100%;
     margin: -8px auto;
     padding: 5px;
     text-align: center;
-    background-color: #10BAE6;
-    border: 1px solid black;
+    background-image: linear-gradient(to bottom, #cac7c7, #fff);
     font-size: 1em;
     margin-bottom: 2px;
 }
@@ -20,10 +19,11 @@ header p a{
 footer {
     margin: 2px auto -3px auto;
     padding: 3px;
-    background-color: #10BAE6;
+    background-color: #cac7c7;
     color: black;
+    font-weight: bolder;
     text-transform:uppercase;
     width: 99.5%;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }

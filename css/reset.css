@@ -1,7 +1,10 @@
 @charset "UTF-8";
 body{
      margin: auto;
-     width: 95%;
+     width: 98.5%;
+}
+ul{
+    margin: auto;
 }
 
 a{
