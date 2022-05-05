@@ -12,6 +12,15 @@
     header{
         font-size: 0.8em;
     }
+
+    .icones{
+        clear: both;
+        display: inline-block;
+        width: 95%;
+    }
+    .icones img{
+        max-width:12% ;
+    }
 }
 
 
@@ -23,4 +32,29 @@
     main{
         width: 95vw;
     }
+    .simule{
+        height: auto;
+    }
+    .icones{
+        clear: both;
+        display: inline-block;
+        width: 100%;
+        border: none;
+    }
+    .icones img{
+        max-width:8% ;
+        margin: auto;
+        display:inline-block;
+        border: none;
+    }
+    #btn-simular{
+        font-size: 1em;
+    }
+    #btn-simular:hover{
+        font-size: 1em;
+    }
+    .caixa-simulacao{
+        width:40%;
+    }
+
 }
