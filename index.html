@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
 
+<!-- Event snippet for Cliques whatsapp conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-10889269544/0essCJquiLsDEKiitMgo', 'event_callback': callback }); return false; } </script>
+
     <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,6 +11,28 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-K6ZNNNV');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 10889269544 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10889269544"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10889269544');
+        </script>
+
+        <script>
+        gtag('event', 'page_view', {
+            'send_to': 'AW-10889269544',
+            'value': 'replace with value',
+            'items': [{
+            'id': 'replace with value',
+            'location_id': 'replace with value',
+            'google_business_vertical': 'custom'
+            }]
+        });
+        </script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,6 +51,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <script language="javaScript" src="javascript/funcoes.js" defer></script>
+    <script language="javaScript" src="javascript/cidades.js" defer></script>
 
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5JX5FX1C9"></script>
@@ -150,6 +175,17 @@
             <i style="margin-top:16px" class="fa fa-whatsapp"></i>
             <div class="mensagem" ><span class="tooltiptext">Entre em contato!</span></div>
              </a>
+        <div form-flutuante>
+            <form id="formulario" action="email.php" method="post">
+                   <label><p>Nome: <input type="text" name="tName" id="cName"></label></p>
+                   <label><p>E-mail: <input type="email" name="tEmail" id="cEmail" ></label></p>
+                   <label><p>Whatsapp: <input type="tel" name="tTel" id="cTel" ></label></p>
+                   <fieldset>
+                        <label>Estado</label>:<select id="estado" name="estado"></select></br> 
+                        <label>Cidade</label>:<select id="cidade" name="cidade"></select> 
+                    </fieldset>
+            </form>
+        </div>
 
     </main>
     <footer>
