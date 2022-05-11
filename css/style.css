@@ -1,14 +1,40 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+
+
+:root{
+    --font1:Arial,Helvetica,sans-serif;
+    --font2:'Open Sans', sans-serif;
+    --font3:'FontAwesome',sans-serif;
+    --font4:'Gentium Basic',  serif;
+    --cor1:#157A6C;
+    --cor5:#E9E9E9;
+    --cor2:#000000;
+    --cor3:#1e6815;
+    --cor4:#34af23;
+}
+
+main h1{
+    margin: auto;
+    display: block;
+    height: auto;
+    font-size: 150%;
+}
+
 header h2{
-    color:#157A6C;
+    color:var(--cor1);
 }
 main{
     width: 90%;
     margin: auto;
 }
 main p{
+    font-weight: 500;
     width: 85%;
+    font-family: var(--font2);
     font-size: 1.2em;
     text-align: justify;
     margin: 5px auto;
@@ -23,10 +49,10 @@ strong{
     width: 90%;
     height: auto;
     margin: auto;
-    background-color: black;
+    background-color: var(--cor2);
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px var(--cor2);
 }
 .icones{
     clear: both;
@@ -34,24 +60,25 @@ strong{
     float: left;
     width: 17%;
     height: auto;
-    margin: auto;
-    border-right: 1px solid black;
+    margin: 2px auto;
+    border-right: 1px solid var(--cor2);
+    align-content: center;
 }
 .simule{
     position: relative;
     display: block;
     margin: 5px auto;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--cor2);
     width: 90%;
     height: calc(380px);
-    background-color: #E9E9E9;
+    background-color: var(--cor5);
     border-radius: 5px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px var(--cor2);
 }
 
 .simule img{
-    border: 2px solid black;
+    border: 2px solid var(--cor2);
     margin: 3px;
     border-radius: 5px;
 }
@@ -59,30 +86,33 @@ strong{
     width: 14%;
     padding: 16px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid var(--cor2);
     border-radius: 5px;
     margin: 0px 0px 5px 5px;
     display: inline-block;
-    background-color: #157A6C;
+    font-size: 1em;
+    background-color: var(--cor1);
+    align-content: space-between;
 }
 #btn-simular{
-    width: 95%;
+    width: 80%;
     height: 35px;
-    margin: auto;
+    margin: 5px auto;
+    text-transform: uppercase;
     padding: 2px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
-    background-color: #1e6815;
-    font-size: 1.5em;
+    background-color: var(--cor3);
+    font-size: 1.0em;
 }
 #btn-simular:hover{
     width: 95%;
     height: 35px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     padding: 2px;
     text-decoration: none;
-    background-color: #1e6815;
+    background-color: var(--cor4);
 }
 .imag img{
     width: 80%;
@@ -96,7 +126,7 @@ a#flutuante{
     height:50px;
     bottom:60px;
     right:20px;
-    background-color:#34af23;
+    background-color:var(--cor4);
     color:#fff;
     border-radius:50px;
     text-align:center;
@@ -113,7 +143,7 @@ a#flutuante>div{
 }
 a#flutuante:hover>div{
     visibility: visible;
-    background-color: #34af23;
+    background-color: var(--cor4);
     position: absolute;
     padding: 3px;
     z-index:1350;
@@ -128,19 +158,75 @@ a#flutuante:hover>div{
 }
 
 .convenios{
-    width: 75%;
+    width: 85%;
     margin: auto;
     padding: 2px;
     display: block;
+    align-content: center;
 
-}
 }
 .convenios img{
     display: inline-block;
     margin: auto;
     border-radius: 8px;
-    align-items: center;
+    align-content: center;
+}
 hr{
     color: #000;
     background-color: #000;
+}
+#formulario{
+    display: inline-block;
+    width: 65%;
+    border-radius: 5PX;
+    padding: 5px;
+    margin: 2px auto;
+    border: 1px solid black;
+    background-color: var(--cor5);
+    box-shadow: 1px 1px 1px black;
+}
+#formulario p{
+    display: block;
+    font-size: 0.8em;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+fieldset{
+    border: none;
+    margin: auto;
+    width: 99%;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.campo p{
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 900;
+    }
+#formulario input{
+    margin: auto;
+    text-align: center;
+    border-radius: 1px;
+    padding: 2px;
+    display: inline-block;
+}
+
+#btn{
+    width: 80%;
+    margin: 15px auto;
+    padding: 2px;
+    background-color: var(--cor3);
+    font-size: 1.1em;
+    color: var(--cor2);
+    border: 1px 1px 1px black;
+    margin: 2px auto;
+}
+.campo {
+    display: inline-block;
+    width: 50%;
+    align-content: space-between;
 }

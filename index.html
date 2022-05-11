@@ -64,7 +64,7 @@
             </script>
 
 </head>
-<body>
+<body onload="checkDevice()">
 
     <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6ZNNNV"
@@ -101,9 +101,7 @@
                     <img src="img/cartao/safra.jpg" alt="Banco Safra">
                 </div>
                     <div class="caixa-simulacao">
-                        <button id="btn-simular">
-                            <a id="link-prefeitura"onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20em%20prefeitura%20e%20gostaria%20de%20simular%20cr%C3%A9dito%20consigando');" href="https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20em%20prefeitura%20e%20gostaria%20de%20simular%20cr%C3%A9dito%20consigando" target="_blank">Simule</a>
-                        </button>
+                        <button id="btn-simular"  onclick= "return gtag_report_conversion('https://api.whatsapp.com/send?phone=5511949831033&text=Ol%C3%A1%2C%20trabalho%20em%20prefeitura%20e%20gostaria%20de%20simular%20cr%C3%A9dito%20consignado');" target="_blank">SIMULE</button>
                         <hr>
                         <h2>Prefeituras</h2>
                         <h3>Categorias</h3>
@@ -156,7 +154,22 @@
             <div class="grafico">
                 <img src="img/3582482f-2cb6-4e91-a157-2ced67e05a2e.jpg" alt="Grafico comparando as taxas de juros dos tipos de créditos">
             </div><p><strong>FIUZA CONSIGNADOS</strong> é uma empresa <strong>correspondente de instituições financeiras especializada</strong> em empréstimo e cartão consignado para <strong>servidores públicos municipais</strong>, <strong>estaduais e federais</strong>. Nossa especialidade é permitir o acesso as melhores propostas dentro dos bancos que atuam com consignado. <strong>Possuímos o selo de certificação FEBRABAN</strong> completo como correspondente bancária <strong>nível Brasil</strong>, através de um sistema on-line para facilitar o processo de aprovação bancária para com você servidor público.</p>
+
             
+             <div id="formulario" class="forme">
+                <fieldset >
+                    <legend>QUERO SABER MAIS!</legend>
+                    <p>Deixe seu whatsapp que vamos entrar em contato!</p>
+                    <form action="email.php" method="post">
+                        <div class="campo"><label><p>Nome: <input type="text" name="tName" id="cName" placeholder="Insira seu nome" max="15" maxlength="50" required></label></p></div>
+                        <div class="campo"><label><p>E-mail: <input type="email" name="tEmail" id="cEmail" placeholder="Insira seu melhor email" max="12" maxlength="40"></label></p></div>
+                        <div class="campo"><label><p>Whatsapp: <input type="tel" class="form-control" id="tel" name="tTel" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" placeholder="Insira seu WhatsApp" required></label></p></div>
+                        <p><input type="checkbox" name="ckecked" id="tcheck" required> Aceito compartilhar estes dados!</p>
+                        <input type="submit" id="btn" value="Solicitar contato!">
+                        
+                    </form>
+                </fieldset>
+            </div>
 
                 <div class="convenios" id="parceiros">
                     <img src="img/convenios/gov-br.webp" alt="Icone do governo do Brasil">
@@ -171,25 +184,17 @@
                 </div>
         </section>
 
-        <a id="flutuante" onclick="return gtag_report_conversion('https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0');" href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank" >
+        <a id="flutuante" class="btnflutu" onclick="return gtag_report_conversion('https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0');" href="https://api.whatsapp.com/send/?phone=5511949831033&text&app_absent=0" target="_blank" >
             <i style="margin-top:16px" class="fa fa-whatsapp"></i>
             <div class="mensagem" ><span class="tooltiptext">Entre em contato!</span></div>
-             </a>
-        <div form-flutuante>
-            <form id="formulario" action="email.php" method="post">
-                   <label><p>Nome: <input type="text" name="tName" id="cName"></label></p>
-                   <label><p>E-mail: <input type="email" name="tEmail" id="cEmail" ></label></p>
-                   <label><p>Whatsapp: <input type="tel" name="tTel" id="cTel" ></label></p>
-                   <fieldset>
-                        <label>Estado</label>:<select id="estado" name="estado"></select></br> 
-                        <label>Cidade</label>:<select id="cidade" name="cidade"></select> 
-                    </fieldset>
-            </form>
-        </div>
+        </a>
+        
 
     </main>
+
+
     <footer>
-        <p>Endereço: <a  id="endereço" onclick="return gtag_report_conversion('https://goo.gl/maps/kHbBGbuquGpLSmkv5');" href="https://goo.gl/maps/kHbBGbuquGpLSmkv5" target="_blank">R. Quinze de Novembro, 201- Centro Histórico de São Paulo, São Paulo - SP, 01013-001</a></p>
+        <p>Endereço: <a  id="endereço" href="https://goo.gl/maps/kHbBGbuquGpLSmkv5" target="_blank">R. Quinze de Novembro, 201- Centro Histórico de São Paulo, São Paulo - SP, 01013-001</a></p>
     </footer>
 </body>
 </html>

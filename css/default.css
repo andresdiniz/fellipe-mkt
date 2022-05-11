@@ -1,5 +1,5 @@
 header{
-    width: 100%;
+    max-width: 99%;
     margin: -8px auto;
     padding: 5px;
     text-align: center;
@@ -23,7 +23,10 @@ footer {
     color: black;
     font-weight: bolder;
     text-transform:uppercase;
-    width: 99.5%;
+    width: 99%;
     font-size: 1.2em;
+    text-align: center;
+}
+footer p{
     text-align: center;
 }

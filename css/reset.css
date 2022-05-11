@@ -1,8 +1,19 @@
 @charset "UTF-8";
-body{
-     margin: auto;
-     width: 98.5%;
+
+*{
+    margin:auto;
+    padding:0;
+    font-family:var(--font2);
+    font-weight:bolder;
+    text-decoration:none;
+    text-align: center;
+    font-display: swap;
 }
+body{
+    min-width: 99%;
+    max-height:1000vh;
+}
+
 ul{
     margin: auto;
 }
