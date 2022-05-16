@@ -1,0 +1,88 @@
+#link-SP{
+    min-width: 20%;
+    margin-bottom: 2px;
+    padding: 16px;
+    display: inline-block;
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+    margin: 0px 0px 5px 5px;
+    display: inline-block;
+    font-size: 1em;
+    align-content: space-between;
+}
+#formulario-sp{
+    width: 40%;
+    display: inline-block;
+    background-color: var(--cor1);
+    max-height: 500px;
+    font-size: 1em;
+    padding: 16px;
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+    margin: 0px 0px 5px 5px;
+    align-content: space-between;
+}
+#formulario-sp p{
+    font-size: 0.8em;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.192);
+    text-align: right;
+}
+#formulario-so input{
+    width: 60%;
+}
+#link-estadosp{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #000;
+}
+p#cab{
+    font-size: 1.1em;
+    text-align: center;
+    width: 90%;
+}
+input{
+    align-content: space-between;
+}
+@media (min-width:650px) and (max-width:1100px){
+    #link-SP{
+    max-width: 20%;
+    margin-bottom: 2px;
+    padding: 16px;
+    display: inline-block;
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+    margin: 0px 0px 5px 5px;
+    display: inline-block;
+    font-size: 1em;
+    align-content: space-between;
+}
+#formulario-sp{
+    width: 35%;
+
+}
+#formulario-sp p{
+    font-size: 0.5em;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.192);
+    text-align: right;
+}
+#formulario-sp input{
+    width: 60%;
+    font-size: 0.5em;
+}
+#link-estadosp{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #000;
+}
+p#cab{
+    font-size: 1.1em;
+    text-align: center;
+    width: 90%;
+}
+input{
+    align-content: space-between;
+}
+
+

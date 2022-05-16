@@ -9,7 +9,7 @@
     $result = $agora->format("Y-m-d H:i:s");
     $somenteNumeros = preg_replace('/[^0-9]/', '', $tel);
     $sql = "INSERT INTO leads (ID, Nome, Email, Telefone, dataatual) VALUES (NULL, '$nome','$email','$somenteNumeros','$result')";
-    $whatsapp = "https://wa.me/" . $somenteNumeros;
+    $whatsapp = "https://wa.me/55" . $somenteNumeros;
     if ($conn->query($sql) === TRUE) {
     include('obrigado.html');
     ini_set( 'display_errors', 1 );
