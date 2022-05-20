@@ -28,8 +28,6 @@ function checkDevice() {
   }
  
 }
-
-
 console.log(checkDevice()); // false - estou no PC
 
 
